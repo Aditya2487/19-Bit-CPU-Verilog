@@ -5,8 +5,10 @@ In the designed CPU, User Registers C,D,E and F are designed to be user accessib
 Timelapse for the coding and design process - https://youtu.be/x6ywrpuxJe8
 
 The attached files in DOCS folder with their respecive description - 
+
 CPU-Architecture.jpg - Shows all the major components of the system along with the control and data lines between them.
 ISA_1.jpg and ISA_2.jpg - Shows a comprehensive list of all micro-operations performed by each of the provided instruction. On the ISA_2.jpg file, there is also a table given which shows how all the Assembly Level instrucitons provided by the user are to be translated into machine level binary.
+
 InstructionGenerator.xlsx - Used to generate machine level code for the desired Instruction. 
 CU_LOGIC_1.jpg and CU_LOGIC_2.jpg - Shows all the logic behind each control signal.
 OutputWaveForm.png - Screenshot of the output waveform. To generate a simulation wave form with all major signals visible, a new text fixture was created labelled as CPU_TEST.v Inside this test fixture all the components and connections of the CPU have been initialized and the following program has been stored in the memory.
