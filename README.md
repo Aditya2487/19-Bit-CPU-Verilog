@@ -21,5 +21,5 @@ Location|	Instruction	       | Binary
 
 The Output waveform shows how the values get loaded into the UserRegC and UserRegD and are then multiplied and stored into UserRegF. (Observing the last 8 signals of the outpu waveform, one can see that values get loaded in the register C,D and F when the load signal goes high.)
 
-The CPU can also be programmed in Assembly by simply editing the file AssemblyProgram.txt
+The CPU can also be programmed in Assembly by simply editing the file AssemblyProgram.txt;
 Post the assembly program, run the script ./compileScript.tcl ; This script will generate the binary and store it into mem_init.txt; Once this is done CPU_MAIN.v can be simulated in desired simulator and the output of the program can be observed.
