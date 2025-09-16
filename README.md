@@ -18,17 +18,17 @@ OutputWaveForm.png - Screenshot of the output waveform. To generate a simulation
 
 Location|	Instruction	       | Binary
 
-00			  LD C, 004 			    0110000000000000100
+00 &emsp;  LD C, 004 	&emsp; &emsp; 0110000000000000100
 
-01 			  LD D, 005 	  	   	0110100000000000101 
+01 &emsp; LD D, 005   &emsp; &emsp; 0110100000000000101 
 
-02 			  MUL F,C,D 	    		1110000000001110001 
+02 &emsp; MUL F,C,D 	&emsp; &emsp; 1110000000001110001 
 
-03 			  JMP 000 		      	0010000000000000000 
+03 &emsp; JMP 000 		&emsp; &emsp; 0010000000000000000 
 
-04 			  (Decimal Value 4)  	0000000000000000100  
+04 &emsp; (Decimal Value 4)&emsp; 0000000000000000100  
 
-05 			  (Decimal Value 7)  	0000000000000000111
+05 &emsp; (Decimal Value 7)&emsp;	0000000000000000111
 
 The Output waveform shows how the values get loaded into the UserRegC and UserRegD and are then multiplied and stored into UserRegF. (Observing the last 8 signals of the outpu waveform, one can see that values get loaded in the register C,D and F when the load signal goes high.)
 
